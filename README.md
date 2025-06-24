@@ -39,5 +39,4 @@ This repository contains my submission for **Task 3** of the 45-Day Web Developm
 ---
 
 ## 📸 Screenshot
-
-*(Optional — add your screenshot here)*  
+(https://github.com/aniraja/task-3-quiz-weather-responsive/blob/main/ApexPlanet_task3.jpg) 
