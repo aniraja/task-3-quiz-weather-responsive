@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 – Quiz & Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Task 3 – Responsive Quiz & Weather App</h1>
+  </header>
+
+  <main class="container">
+
+    <!-- Quiz Section -->
+    <section class="quiz">
+      <h2>Simple Quiz</h2>
+      <div id="quiz-container">
+        <p id="question"></p>
+        <div id="options"></div>
+        <button onclick="nextQuestion()">Next</button>
+      </div>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather">
+      <h2>Weather Checker</h2>
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="getWeather()">Get Weather</button>
+      <div id="weatherResult"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
